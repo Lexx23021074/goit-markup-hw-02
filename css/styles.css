@@ -27,11 +27,9 @@ a{
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
-  color: #4d5ae5 !important; /* Робимо колір пріоритетним */
+  color: #4d5ae5
 }
-
-.logo-part {
+.header-logo .logo-part {
   color: #2e2f42; /* Тільки міняємо колір для STUDIO */
 }
 .nav-list {
@@ -39,15 +37,42 @@ a{
 .nav-item {
 }
 .nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
+
 .contacts {
+  font-style:normal;
 }
 .contacts-list {
 }
 .conatacts-items {
 }
 .contacts-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus{
+  color: #404bbf;
+}
+/* #endregion */
+/* #region footer */
+.page-gooter{
+  background-color: #2e2f42;
+}
+.footer-logo .logo-part {
+  color: #f4f4fd; /* Тільки міняємо колір для STUDIO */
 }
 
 
 /* #endregion */
+
