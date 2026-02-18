@@ -7,6 +7,7 @@ body {
 /* #endregion */
 
 /* #region resets */
+
 ul,ol{
     list-style-type: none;
 }
@@ -15,7 +16,25 @@ a{
     text-decoration: none;
 }
 /* #endregion */
+
+/* #region common */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* #endregion */
+
 /* #region header */
+
 .page-header {
 }
 .header-nav {
@@ -65,6 +84,64 @@ a{
   color: #404bbf;
 }
 /* #endregion */
+
+/* #region Hero */
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+.btn{
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.btn:hover,
+.btn:focus{
+  background-color: #404bbf;
+
+}
+
+/* #endregion */
+
+
+/* #region Features */
+.features-list {
+}
+.features-items {
+}
+.features-caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.features-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+
+}
+
+/* #endregion */
+
+/* #region Team */
+
+
+/* #endregion */
+
 /* #region footer */
 .page-gooter{
   background-color: #2e2f42;
