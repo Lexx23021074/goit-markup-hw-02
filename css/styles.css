@@ -90,7 +90,7 @@ p {
 }
 .contacts-list {
 }
-.contacts-items {
+.contacts-item {
 }
 .contacts-link {
   font-size: 16px;
@@ -170,6 +170,7 @@ p {
 .team-list {
 }
 .team-item {
+  background-color: #ffffff;
 }
 .team-ill {
 }
@@ -183,7 +184,7 @@ p {
 /* #endregion */
 
 /* #region portfolio */
-.portfolo {
+.portfolio {
   text-align: center;
 }
 .portfolio-item {
