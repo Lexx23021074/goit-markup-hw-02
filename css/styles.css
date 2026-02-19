@@ -18,6 +18,27 @@ a{
 /* #endregion */
 
 /* #region common */
+h2 {font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+
+}
+h3 {
+    font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -30,7 +51,8 @@ a{
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+  }
+
 /* #endregion */
 
 /* #region header */
@@ -68,7 +90,7 @@ a{
 }
 .contacts-list {
 }
-.conatacts-items {
+.contacts-items {
 }
 .contacts-link {
   font-size: 16px;
@@ -104,6 +126,7 @@ a{
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  cursor: pointer;
 }
 .btn:hover,
 .btn:focus{
@@ -138,17 +161,53 @@ a{
 /* #endregion */
 
 /* #region Team */
+.team-section {
+    background-color: #f4f4fd;
+}
+.team-title{
+  text-align: center;
+}
+.team-list {
+}
+.team-item {
+}
+.team-ill {
+}
+.team-member {
+  text-align: center;
+}
+.team-pos {
+  text-align: center;
+}
 
+/* #endregion */
+
+/* #region portfolio */
+.portfolo {
+  text-align: center;
+}
+.portfolio-item {
+}
+.portfolio-ill {
+}
+.portfolio-caption {
+}
+.portfolio-subtitle {
+}
 
 /* #endregion */
 
 /* #region footer */
-.page-gooter{
+.page-footer{
   background-color: #2e2f42;
 }
 .footer-logo .logo-part {
   color: #f4f4fd; /* Тільки міняємо колір для STUDIO */
 }
+.footer-slog {
+  color: #f4f4fd;
+}
+
 
 
 /* #endregion */
